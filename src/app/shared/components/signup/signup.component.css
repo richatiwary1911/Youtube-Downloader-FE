@@ -106,7 +106,7 @@ input:focus, input:active, input:hover {
 .social-icons {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
   padding-bottom: 15px;
 }
 
@@ -121,7 +121,7 @@ input:focus, input:active, input:hover {
   cursor: pointer;
   margin-bottom: 35px;
 }
-
+/* 
 .facebook {
   background-color: #3b5998;
 }
@@ -132,12 +132,17 @@ input:focus, input:active, input:hover {
 
 .twitter {
   background-color: #00acee;
-}
+} */
 
 .google {
   background-color: #DB4437;
 }
 
-.linkedin {
-  background-color: #2867B2;
+a{
+  text-decoration: none;
+  color: white;
 }
+
+/* .linkedin {
+  background-color: #2867B2;
+} */

@@ -89,7 +89,7 @@
   .social-icons {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 15px;
   }
   
@@ -156,6 +156,11 @@
   
   .login-form__sign-up:hover {
     text-decoration: underline;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
   }
   
   
